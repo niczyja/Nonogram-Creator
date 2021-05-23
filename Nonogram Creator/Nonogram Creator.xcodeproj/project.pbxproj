@@ -15,6 +15,8 @@
 		527AD6D1265AC8150083EED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527AD6CF265AC8150083EED9 /* LaunchScreen.storyboard */; };
 		527AD6DC265AC8160083EED9 /* Nonogram_CreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6DB265AC8160083EED9 /* Nonogram_CreatorTests.swift */; };
 		527AD6E7265AC8160083EED9 /* Nonogram_CreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6E6265AC8160083EED9 /* Nonogram_CreatorUITests.swift */; };
+		527AD6FF265AC8F50083EED9 /* Nonogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6FE265AC8F50083EED9 /* Nonogram.swift */; };
+		527AD704265AC8FC0083EED9 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD703265AC8FC0083EED9 /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		527AD6E6265AC8160083EED9 /* Nonogram_CreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nonogram_CreatorUITests.swift; sourceTree = "<group>"; };
 		527AD6E8265AC8160083EED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527AD6F7265AC8410083EED9 /* Nonogram Creator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nonogram Creator.entitlements"; sourceTree = "<group>"; };
+		527AD6FE265AC8F50083EED9 /* Nonogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nonogram.swift; sourceTree = "<group>"; };
+		527AD703265AC8FC0083EED9 /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 		527AD6C3265AC8120083EED9 /* Nonogram Creator */ = {
 			isa = PBXGroup;
 			children = (
+				527AD6FE265AC8F50083EED9 /* Nonogram.swift */,
+				527AD703265AC8FC0083EED9 /* TestData.swift */,
 				527AD6F7265AC8410083EED9 /* Nonogram Creator.entitlements */,
 				527AD6C4265AC8120083EED9 /* AppDelegate.swift */,
 				527AD6C6265AC8120083EED9 /* SceneDelegate.swift */,
@@ -262,6 +268,8 @@
 			files = (
 				527AD6C9265AC8120083EED9 /* ViewController.swift in Sources */,
 				527AD6C5265AC8120083EED9 /* AppDelegate.swift in Sources */,
+				527AD6FF265AC8F50083EED9 /* Nonogram.swift in Sources */,
+				527AD704265AC8FC0083EED9 /* TestData.swift in Sources */,
 				527AD6C7265AC8120083EED9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
