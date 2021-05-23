@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527AD6C5265AC8120083EED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6C4265AC8120083EED9 /* AppDelegate.swift */; };
+		527AD6C7265AC8120083EED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6C6265AC8120083EED9 /* SceneDelegate.swift */; };
+		527AD6C9265AC8120083EED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6C8265AC8120083EED9 /* ViewController.swift */; };
+		527AD6CC265AC8120083EED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527AD6CA265AC8120083EED9 /* Main.storyboard */; };
+		527AD6CE265AC8150083EED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527AD6CD265AC8150083EED9 /* Assets.xcassets */; };
+		527AD6D1265AC8150083EED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527AD6CF265AC8150083EED9 /* LaunchScreen.storyboard */; };
+		527AD6DC265AC8160083EED9 /* Nonogram_CreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6DB265AC8160083EED9 /* Nonogram_CreatorTests.swift */; };
+		527AD6E7265AC8160083EED9 /* Nonogram_CreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AD6E6265AC8160083EED9 /* Nonogram_CreatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527AD6D8265AC8160083EED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527AD6B9265AC8120083EED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527AD6C0265AC8120083EED9;
+			remoteInfo = "Nonogram Creator";
+		};
+		527AD6E3265AC8160083EED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527AD6B9265AC8120083EED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527AD6C0265AC8120083EED9;
+			remoteInfo = "Nonogram Creator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527AD6C1265AC8120083EED9 /* Nonogram Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nonogram Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527AD6C4265AC8120083EED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527AD6C6265AC8120083EED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		527AD6C8265AC8120083EED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527AD6CB265AC8120083EED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527AD6CD265AC8150083EED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527AD6D0265AC8150083EED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527AD6D2265AC8150083EED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527AD6D7265AC8160083EED9 /* Nonogram CreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nonogram CreatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527AD6DB265AC8160083EED9 /* Nonogram_CreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nonogram_CreatorTests.swift; sourceTree = "<group>"; };
+		527AD6DD265AC8160083EED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527AD6E2265AC8160083EED9 /* Nonogram CreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nonogram CreatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527AD6E6265AC8160083EED9 /* Nonogram_CreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nonogram_CreatorUITests.swift; sourceTree = "<group>"; };
+		527AD6E8265AC8160083EED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527AD6F7265AC8410083EED9 /* Nonogram Creator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nonogram Creator.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527AD6BE265AC8120083EED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6D4265AC8160083EED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6DF265AC8160083EED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527AD6B8265AC8120083EED9 = {
+			isa = PBXGroup;
+			children = (
+				527AD6C3265AC8120083EED9 /* Nonogram Creator */,
+				527AD6DA265AC8160083EED9 /* Nonogram CreatorTests */,
+				527AD6E5265AC8160083EED9 /* Nonogram CreatorUITests */,
+				527AD6C2265AC8120083EED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527AD6C2265AC8120083EED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527AD6C1265AC8120083EED9 /* Nonogram Creator.app */,
+				527AD6D7265AC8160083EED9 /* Nonogram CreatorTests.xctest */,
+				527AD6E2265AC8160083EED9 /* Nonogram CreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527AD6C3265AC8120083EED9 /* Nonogram Creator */ = {
+			isa = PBXGroup;
+			children = (
+				527AD6F7265AC8410083EED9 /* Nonogram Creator.entitlements */,
+				527AD6C4265AC8120083EED9 /* AppDelegate.swift */,
+				527AD6C6265AC8120083EED9 /* SceneDelegate.swift */,
+				527AD6C8265AC8120083EED9 /* ViewController.swift */,
+				527AD6CA265AC8120083EED9 /* Main.storyboard */,
+				527AD6CD265AC8150083EED9 /* Assets.xcassets */,
+				527AD6CF265AC8150083EED9 /* LaunchScreen.storyboard */,
+				527AD6D2265AC8150083EED9 /* Info.plist */,
+			);
+			path = "Nonogram Creator";
+			sourceTree = "<group>";
+		};
+		527AD6DA265AC8160083EED9 /* Nonogram CreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				527AD6DB265AC8160083EED9 /* Nonogram_CreatorTests.swift */,
+				527AD6DD265AC8160083EED9 /* Info.plist */,
+			);
+			path = "Nonogram CreatorTests";
+			sourceTree = "<group>";
+		};
+		527AD6E5265AC8160083EED9 /* Nonogram CreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527AD6E6265AC8160083EED9 /* Nonogram_CreatorUITests.swift */,
+				527AD6E8265AC8160083EED9 /* Info.plist */,
+			);
+			path = "Nonogram CreatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527AD6C0265AC8120083EED9 /* Nonogram Creator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527AD6EB265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram Creator" */;
+			buildPhases = (
+				527AD6BD265AC8120083EED9 /* Sources */,
+				527AD6BE265AC8120083EED9 /* Frameworks */,
+				527AD6BF265AC8120083EED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nonogram Creator";
+			productName = "Nonogram Creator";
+			productReference = 527AD6C1265AC8120083EED9 /* Nonogram Creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527AD6D6265AC8160083EED9 /* Nonogram CreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527AD6EE265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram CreatorTests" */;
+			buildPhases = (
+				527AD6D3265AC8160083EED9 /* Sources */,
+				527AD6D4265AC8160083EED9 /* Frameworks */,
+				527AD6D5265AC8160083EED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527AD6D9265AC8160083EED9 /* PBXTargetDependency */,
+			);
+			name = "Nonogram CreatorTests";
+			productName = "Nonogram CreatorTests";
+			productReference = 527AD6D7265AC8160083EED9 /* Nonogram CreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527AD6E1265AC8160083EED9 /* Nonogram CreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527AD6F1265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram CreatorUITests" */;
+			buildPhases = (
+				527AD6DE265AC8160083EED9 /* Sources */,
+				527AD6DF265AC8160083EED9 /* Frameworks */,
+				527AD6E0265AC8160083EED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527AD6E4265AC8160083EED9 /* PBXTargetDependency */,
+			);
+			name = "Nonogram CreatorUITests";
+			productName = "Nonogram CreatorUITests";
+			productReference = 527AD6E2265AC8160083EED9 /* Nonogram CreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527AD6B9265AC8120083EED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					527AD6C0265AC8120083EED9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					527AD6D6265AC8160083EED9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 527AD6C0265AC8120083EED9;
+					};
+					527AD6E1265AC8160083EED9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 527AD6C0265AC8120083EED9;
+					};
+				};
+			};
+			buildConfigurationList = 527AD6BC265AC8120083EED9 /* Build configuration list for PBXProject "Nonogram Creator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527AD6B8265AC8120083EED9;
+			productRefGroup = 527AD6C2265AC8120083EED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527AD6C0265AC8120083EED9 /* Nonogram Creator */,
+				527AD6D6265AC8160083EED9 /* Nonogram CreatorTests */,
+				527AD6E1265AC8160083EED9 /* Nonogram CreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527AD6BF265AC8120083EED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527AD6D1265AC8150083EED9 /* LaunchScreen.storyboard in Resources */,
+				527AD6CE265AC8150083EED9 /* Assets.xcassets in Resources */,
+				527AD6CC265AC8120083EED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6D5265AC8160083EED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6E0265AC8160083EED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527AD6BD265AC8120083EED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527AD6C9265AC8120083EED9 /* ViewController.swift in Sources */,
+				527AD6C5265AC8120083EED9 /* AppDelegate.swift in Sources */,
+				527AD6C7265AC8120083EED9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6D3265AC8160083EED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527AD6DC265AC8160083EED9 /* Nonogram_CreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527AD6DE265AC8160083EED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527AD6E7265AC8160083EED9 /* Nonogram_CreatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527AD6D9265AC8160083EED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527AD6C0265AC8120083EED9 /* Nonogram Creator */;
+			targetProxy = 527AD6D8265AC8160083EED9 /* PBXContainerItemProxy */;
+		};
+		527AD6E4265AC8160083EED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527AD6C0265AC8120083EED9 /* Nonogram Creator */;
+			targetProxy = 527AD6E3265AC8160083EED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527AD6CA265AC8120083EED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527AD6CB265AC8120083EED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527AD6CF265AC8150083EED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527AD6D0265AC8150083EED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527AD6E9265AC8160083EED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527AD6EA265AC8160083EED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527AD6EC265AC8160083EED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nonogram Creator/Nonogram Creator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram Creator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-Creator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		527AD6ED265AC8160083EED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nonogram Creator/Nonogram Creator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram Creator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-Creator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		527AD6EF265AC8160083EED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram CreatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-CreatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nonogram Creator.app/Nonogram Creator";
+			};
+			name = Debug;
+		};
+		527AD6F0265AC8160083EED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram CreatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-CreatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nonogram Creator.app/Nonogram Creator";
+			};
+			name = Release;
+		};
+		527AD6F2265AC8160083EED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram CreatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-CreatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nonogram Creator";
+			};
+			name = Debug;
+		};
+		527AD6F3265AC8160083EED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAGJ4W96S3;
+				INFOPLIST_FILE = "Nonogram CreatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.niczyja.Nonogram-CreatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nonogram Creator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527AD6BC265AC8120083EED9 /* Build configuration list for PBXProject "Nonogram Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AD6E9265AC8160083EED9 /* Debug */,
+				527AD6EA265AC8160083EED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527AD6EB265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AD6EC265AC8160083EED9 /* Debug */,
+				527AD6ED265AC8160083EED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527AD6EE265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram CreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AD6EF265AC8160083EED9 /* Debug */,
+				527AD6F0265AC8160083EED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527AD6F1265AC8160083EED9 /* Build configuration list for PBXNativeTarget "Nonogram CreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527AD6F2265AC8160083EED9 /* Debug */,
+				527AD6F3265AC8160083EED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527AD6B9265AC8120083EED9 /* Project object */;
+}
