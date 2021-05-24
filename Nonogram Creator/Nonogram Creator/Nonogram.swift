@@ -75,7 +75,7 @@ struct Nonogram {
     }
     
     init(name: String, size: CGSize, description: Description, fields: [[FieldState]]) {
-        guard fields.count == Int(size.width * size.height) else {
+        guard fields.count == Int(size.height) else {
             fatalError("Fields array must match nonogram size")
         }
         
